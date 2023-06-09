@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Table from './components/Table'
+import data from './db.json';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="font-bold">
+          <h1>Reusable Table demonstrating the React Component Composition  </h1>
       </header>
+      <div className="flex justify-center ">
+      <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+              {data.employees.length > 0 ? (
+                <Table
+                  data={data.employees}
+                />
+              ) : (
+                <>No match</>
+              )}
+            </div>
+            </div>
     </div>
   );
 }

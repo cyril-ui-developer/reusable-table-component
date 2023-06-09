@@ -1,0 +1,99 @@
+{
+    "customers": [
+      {
+        "id": "1",
+        "firstName": "Stella",
+        "lastName": "Adams",
+        "avatarUrl": "",
+        "email": "xxxx@xxx.xxx",
+        "tel": "+1-xxx-xxx-xxxx",
+        "Type": "Foods",
+        "status": "Active",
+        "createdDate": "01/12/2018",
+        "workLocation": "Cary, NC"
+      },
+      {
+        "id": "2",
+        "firstName": "Moses",
+        "lastName": "Dan",
+        "avatarUrl": "",
+        "email": "xxxx@xxx.xxx",
+        "tel": "+1-xxx-xxx-xxxx",
+        "Type": "Auto mobile",
+        "status": "Active",
+        "createdDate": "08/01/2020",
+        "workLocation": "Houston, TX"
+      },
+      {
+        "id": "3",
+        "firstName": "Cory",
+        "lastName": "Fish",
+        "avatarUrl": "",
+        "email": "xxxx@xxx.xxx",
+        "tel": "+1-xxx-xxx-xxxx",
+        "Type": "Electronics",
+        "status": "In-Active",
+        "createdDate": "01/12/2018",
+        "workLocation": "Tampa, FA"
+      }
+    ],
+    "employees": [
+      {
+        "id": "1",
+        "firstName": "Vibe",
+        "lastName": "Power",
+        "avatarUrl": "",
+        "email": "xxx@xxxx.xxx",
+        "tel": "+1-xxx-xxx-xxxx",
+        "jobTitle": "Software Engineer",
+        "department": "Software Engineering",
+        "project": "Topping",
+        "teamName": "IT",
+        "hireDate": "01/12/2018",
+        "workLocation": "Atlanta, GA"
+      },
+      {
+        "id": "2",
+        "firstName": "Alter",
+        "lastName": "Supply",
+        "avatarUrl": "",
+        "email": "xxx@xxxxxx.xxx",
+        "tel": "+1-xxx-xxx-xxxx",
+        "jobTitle": "DevOps Engineer",
+        "department": "Software Engineering",
+        "project": "Pushing",
+        "teamName": "Operation",
+        "hireDate": "11/12/2022",
+        "workLocation": "Dallas, TX"
+      },
+      {
+        "id": "3",
+        "firstName": "Todd",
+        "lastName": "Cole",
+        "avatarUrl": "",
+        "email": "xxxx@xxxxx.xxx",
+        "tel": 11011199,
+        "mobile": 20190220101,
+        "jobTitle": "Site Relaibility Engineer",
+        "department": "Software Engineering",
+        "project": "Pushing",
+        "teamName": "Opertaion",
+        "hireDate": "04/10/2015",
+        "workLocation": "Durham, NC"
+      },
+      {
+        "id": "4",
+        "firstName": "Fred",
+        "lastName": "Hendrick",
+        "avatarUrl": "",
+        "email": "xxxx@xxxx.xxx",
+        "tel": "+1-xxx-xxx-xxxx",
+        "jobTitle": "Account Officer",
+        "department": "Finance",
+        "project": "Hopping",
+        "teamName": "Buck",
+        "hireDate": "11/11/2017",
+        "workLocation": "Bentonville, AR"
+      }
+    ]
+  }
