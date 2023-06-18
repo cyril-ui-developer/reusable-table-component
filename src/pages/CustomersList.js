@@ -2,7 +2,6 @@ import TableData from "../components/TableData";
 import Table from "../components/Table";
 
 function CustomersList({ data }) {
-  console.log("data", data);
   const tableColumns = [
     {
       key: "id",
